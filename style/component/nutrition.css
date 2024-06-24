@@ -1,0 +1,63 @@
+
+.nutrition__description{
+    font-size: var(--size-xl);
+    margin-top: 1rem;
+}
+
+.nutrition__table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.nutrition__table--row{
+    border-bottom: 1px solid var(--clr-light-grey);
+}
+
+.nutrition__table--row td{
+    font-size: var(--size-lg);
+    padding: 1rem 0 1rem 2rem;
+}
+
+.nutrition__value{
+    color: var(--clr-nutmeg);
+    font-weight: 600;
+}
+
+.nutrition__table--row:last-child{
+    border-bottom: none;
+}
+
+
+@media (max-width: 1024px){
+    .nutrition__description{
+        font-size: var(--size-lg);
+    }
+
+    .nutrition__table--row td{
+        font-size: var(--size-base);
+    }
+}
+
+@media (max-width: 768px){
+    
+}
+
+@media (max-width: 640px){
+
+}
+
+@media (max-width: 475px){
+    .nutrition__description{
+        font-size: var(--size-base);
+        margin-top: 0.5rem;
+    }
+
+    .nutrition__table{
+        margin-top: 0.5rem;
+    }
+
+    .nutrition__table--row td{
+        font-size: var(--size-sm);
+    }
+} 

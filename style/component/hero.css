@@ -1,0 +1,129 @@
+
+
+.hero__img{
+    width: 100%;
+    height: fit-content;
+
+    border-radius: 20px;
+}
+
+.hero__title{
+    font-family: var(--font-secondary);
+    font-size: var(--size-5xl);
+    font-weight: 400;
+
+    line-height: 1;
+    margin-top: 2rem;
+}
+
+.hero__description{
+    font-size: var(--size-xl);
+    color: var(--clr-wenge-brown);
+
+    max-width: 60ch;
+    margin-top: 2rem;
+}
+
+.hero__preparation{
+    background-color: var(--clr-rose-white);
+    border-radius: 20px;
+
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.hero__preparation--title{
+    font-size: var(--size-2xl);
+    color: var(--clr-dark-raspberry);
+    font-weight: 700;
+
+    line-height: 1;
+}
+
+.hero__preparation--list{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.hero__preparation--text-modified{
+    margin-left: 1rem;
+    font-weight: 700;
+    color: var(--clr-wenge-brown);
+}
+
+
+.hero__preparation--list > *{
+    font-size: var(--size-lg);
+    margin-top: 0.5rem;
+}
+
+.hero__preparation--list > *::marker{
+    font-weight: 700;
+    font-size: var(--size-lg);
+    color: var(--clr-dark-raspberry);
+}
+
+.hero__preparation--margin-top0{
+    margin-top: 0;
+}
+
+
+
+@media (max-width: 1024px){
+    .hero__title{
+        font-size: var(--size-4xl);
+    }
+
+    .hero__description{
+        font-size: var(--size-lg);
+    }
+
+    .hero__preparation--title{
+        font-size: var(--size-xl);
+    }
+
+    .hero__preparation--list > *{
+        font-size: var(--size-base);
+    }
+
+    .hero__preparation--list > *::marker{
+        font-size: var(--size-base);
+    }
+}
+
+@media (max-width: 768px){
+    
+}
+
+@media (max-width: 640px){
+
+}
+
+@media (max-width: 475px){
+    .hero__title{
+        font-size: var(--size-3xl);
+    }
+
+    .hero__description{
+        font-size: var(--size-base);
+        margin-top: 1rem;
+    }
+
+    .hero__preparation--title{
+        font-size: var(--size-lg);
+    }
+
+    .hero__preparation--list > *{
+        font-size: var(--size-sm);
+        
+    }
+
+    .hero__preparation--list > *::marker{
+        font-size: var(--size-sm);
+    }
+
+
+    .hero__preparation--text-modified{
+        margin-left: 0.25rem;
+    }
+} 

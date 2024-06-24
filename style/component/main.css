@@ -1,0 +1,34 @@
+
+
+.main{
+    background: var(--clr-white);
+    border-radius: 20px;
+
+    width: 1rem;
+    margin: 7rem 0;
+    padding: 2.5rem;
+}
+
+
+@media (max-width: 1024px){
+    .main{
+        margin: 5rem 0;
+    }
+}
+
+@media (max-width: 768px){
+    .main{
+        padding: 0;
+        margin: 0;
+    }
+
+    .main > * + *{
+        padding-inline: 2rem;
+    }
+}
+
+@media (max-width: 475px){
+    .main > * + *{
+        padding-inline: 1rem;
+    }
+} 
